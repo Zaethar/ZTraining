@@ -8995,7 +8995,14 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 .menu-cart .menu-navigation .tabs-title > a[aria-selected='true'], .menu-cart .menu-navigation .tabs-title > a[aria-selected='true']:active {
     border: 1px solid #000;
     padding: .625rem 1.25rem;
-    background: #fff;
+background: rgba(169,3,41,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(150,3,41,1) 0%, rgba(133,2,34,0.79) 53%, rgba(109,0,25,0.6) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(169,3,41,1)), color-stop(53%, rgba(143,2,34,0.79)), color-stop(100%, rgba(109,0,25,0.6)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(159,3,41,1) 0%, rgba(133,2,34,0.79) 53%, rgba(99,0,25,0.6) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(169,3,41,1) 0%, rgba(143,2,34,0.79) 53%, rgba(109,0,25,0.6) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(169,3,41,1) 0%, rgba(143,2,34,0.79) 53%, rgba(109,0,25,0.6) 100%);
+background: radial-gradient(ellipse at center, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 53%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
     box-sizing: border-box
 }
 
@@ -9308,7 +9315,7 @@ footer .footer-content .contact-form form textarea {
 footer .footer-content .contact-form form button.send-form {
     position: relative;
     margin: 3.125rem auto;
-    border: 1px solid #3c3c3c;
+    border: 2px solid #3c3c3c;
     padding: .9375rem 1.875rem;
     transition: 0.19s ease-in;
     -o-transition: 0.19s ease-in;
@@ -9317,7 +9324,14 @@ footer .footer-content .contact-form form button.send-form {
     -webkit-transition: 0.19s ease-in;
     outline: 0;
     overflow: hidden;
-    background: none;
+background: rgba(169,3,41,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(150,3,41,1) 0%, rgba(133,2,34,0.79) 53%, rgba(109,0,25,0.6) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(169,3,41,1)), color-stop(53%, rgba(143,2,34,0.79)), color-stop(100%, rgba(109,0,25,0.6)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(159,3,41,1) 0%, rgba(133,2,34,0.79) 53%, rgba(99,0,25,0.6) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(169,3,41,1) 0%, rgba(143,2,34,0.79) 53%, rgba(109,0,25,0.6) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(169,3,41,1) 0%, rgba(143,2,34,0.79) 53%, rgba(109,0,25,0.6) 100%);
+background: radial-gradient(ellipse at center, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 53%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
     z-index: 1;
     cursor: pointer
 }
